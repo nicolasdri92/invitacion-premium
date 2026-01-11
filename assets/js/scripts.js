@@ -4,8 +4,9 @@ $(".parallax-confirmar").parallax({
 });
 
 // Portada parallax
+var imagenPortada = window.innerWidth <= 768 ? "assets/img/portada-mobile.jpg" : "assets/img/portada-web.jpg";
 $(".parallax-portada").parallax({
-  imageSrc: "assets/img/portada.jpg",
+  imageSrc: imagenPortada,
 });
 
 // ----------------------

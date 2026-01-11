@@ -336,10 +336,9 @@ section.portada {
 
 section.audio {
   margin-top: 20px;
-
   margin-bottom: 20px;
-
   position: fixed;
+  z-index: 2;
 }
 
 section.audio .columna {
